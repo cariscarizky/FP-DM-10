@@ -1,0 +1,17 @@
+
+Berikut merupakan data properti real estate yang digunakan untuk melakukan prediksi kelayakan investasi properti di beberapa daerah di kota Jakarta Selatan, yang diambil dari website OLX.
+
+Atribut yang digunakan sebagai berikut:
+1. Lokasi : berisi daftar kecamatan yang ada di jakarta selatan, yaitu "pasar kebayoran baru", "pasar kebayoran lama", "pancoran", "pasar minggu", "cilandak", "pesanggrahan", "mampang prapatan".
+2. Kamar Mandi : berisi jumlah kamar mandi.
+3. Kamar Tidur : berisi jumlah kamar tidur.
+4. Luas Bangunan : luas bangunan dalam satuan (m2), kemudian dikategorikan menjadi 3 yaitu:
+- "sempit" dengan range luas (0m2 - 400m2).
+- "sedang" dengan range luas dengan (400m2 - 800m2).
+- "luas" dengan range luas (800m2 - 1000m2).
+5. Properti_type : berisi pilihan jenis properti yang digunakan untuk investasi. terdapat 2 pilihan yaitu, "rumah" dan "apartemen". 
+6. Price_cetegory : berisi range harga yang dikategori menjadi 3 yaitu:
+- "murah" dengan range harga (0M - 12,5M)
+- "sedang" dengan range harga (12,5M - 25M) 
+- "mahal" dengan range harga (25M - 35M) 
+7. Investasi : berisi label kelayakan investasi properti yang dibagi menjadi 2, yaitu "layak" dan "tidak layak". 
